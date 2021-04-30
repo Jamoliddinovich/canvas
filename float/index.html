@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <svg>
+        <defs>
+            <filter id="gooo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+                <feColorMatrix
+                    type="matrix"
+                    values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -20"/>
+                <feBlend  in="SourceGraphic" in2="gooo"/></filter>
+        </defs>
+    </svg>
+</body>
+</html>
